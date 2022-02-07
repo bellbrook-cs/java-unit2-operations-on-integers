@@ -1,10 +1,43 @@
-# Template Assignment
+# Operations on 2 Integers
 
 ## Problem Statement
 
+Given two integer values, find and display the following:
+
+- the sum of the two integers.
+- the difference of the first value minus the second value.
+- the product of the two values.
+- the quotient and remainder of the first value divided by the second value.
+- the maximum and minimum of the two values.
+- the first value raised to the power of the second value.
+- the absolute value of both values.
+
 ## Input Description
 
+Both integers are declared at the top of your main method, you should use them as variables throughout your program. 
+
 ## Sample Input/Output
+
+### Sample Input
+
+```java
+int a = 5;
+int b = 3;
+```
+
+### Sample Output
+
+```
+5 + 3 = 8
+5 - 3 = 2
+5 * 3 = 15
+5 / 3 = 1R2
+The maximum is 5 and the minimum is 3
+5 ^ 3 = 125
+|5| = 5, |3| = 3
+```
+
+and yes, your output **MUST** include the formula, and your output **MUST** update automatically if i change the value of a and/or b.
 
 ## Submission
 
